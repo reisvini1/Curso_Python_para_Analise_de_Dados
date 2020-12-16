@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Cientista de Dados é 
+=======
+Cientista de Dados é 
+>>>>>>> f3ab38b7f6a4913e0f50db94c3423ad719f0c85c
 Cientista de Dados é a 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Exercício 9 - Considere os dois dicionários abaixo.
 # Crie um terceiro dicionário com as chaves do dicionário 1 e os valores do dicionário 2.
 dict1 = {'a':1,'b':2}
@@ -10,4 +11,18 @@ def trocaValores(d1, d2):
     return dicTemp
 
 dict3 = trocaValores(dict1, dict2)
+=======
+# Exercício 9 - Considere os dois dicionários abaixo.
+# Crie um terceiro dicionário com as chaves do dicionário 1 e os valores do dicionário 2.
+dict1 = {'a':1,'b':2}
+dict2 = {'c':4,'d':5}
+
+def trocaValores(d1, d2):
+    dicTemp = {}
+    for d1key, d2val in zip(d1, d2.values()):
+        dicTemp[d1key] = d2val
+    return dicTemp
+
+dict3 = trocaValores(dict1, dict2)
+>>>>>>> f3ab38b7f6a4913e0f50db94c3423ad719f0c85c
 print(dict3)
